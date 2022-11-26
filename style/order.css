@@ -1,0 +1,29 @@
+
+.card{
+    border: black solid 2px !important;
+    border-radius: 0px;
+    margin-top: 10px !important;
+    max-width: 18rem;
+}
+.titlePage{
+    font-family: 'Silkscreen' !important;
+}
+.btn{
+    max-height: 75% !important;
+    vertical-align: middle;
+}
+.btn-invisible{
+    background-color: transparent;
+    border: none !important;
+}
+.fa-cart-shopping:hover{
+    cursor: pointer !important;
+}
+a{
+    text-decoration: none;
+    color: black;   
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}

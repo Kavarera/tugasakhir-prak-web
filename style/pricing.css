@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600;800&family=Marhey:wght@300;400&family=Nunito:wght@300;400;600;900&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&display=swap');
+
+body{
+    font-size: 'Share Tech Mono' !important;
+}
+.parallax{
+    background-image: url("../assets/ce.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.parallax h1{
+    font-size: 80px;
+}
+
+.header-body img{
+    max-width: 100%;
+}
+.header-body-text{
+    margin-left: -15px;
+}
+.header-body-text-caption{
+    font-family: 'Share Tech Mono';
+    font-size: 5em;
+}
+.header-body-text-description h4{
+    margin-left: 30px;
+    text-indent: 20px;
+}
+
+
+.caption-section{
+    background-color: #F7F2F2;
+    padding: 1% 2% 1% 2%;
+    border: black solid 2px;
+}
+.caption-section-text{
+    font-family: 'Share Tech Mono';
+    font-weight: 800;
+    color: #161C1B;
+    animation: slideLR 400ms ease-in;
+
+}
+
+.showAnim{
+    transform:  translateY(150px);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.slideUp{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: all 0.7s ease;
+    box-shadow: -5px 17px 47px -14px rgba(0,0,0,0.67);
+    -webkit-box-shadow: -2px 17px 47px -14px rgba(0,0,0,0.67);
+    -moz-box-shadow: -2px 17px 47px -14px rgba(0,0,0,0.67);
+}
+
+.caption-section-gambar{
+    width: 100%;
+}
+
+.card{
+    border: black solid 2px !important;
+    border-radius: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card-title{
+    font-size: 35px;
+}
+.card-subtitle{
+    font-size: 30px;
+}
+.card p{
+    font-size: 25px;
+}

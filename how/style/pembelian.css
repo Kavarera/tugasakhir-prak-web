@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600;800&family=Marhey:wght@300;400&family=Nunito:wght@300;400;600;900&family=Share+Tech+Mono&family=Silkscreen&display=swap');
+
+body{
+    font-family: 'Share Tech Mono',sans-serif !important;
+    margin: 0px;
+    background-color: #C78AE3;
+}
+.logout-link a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    transition: all 300ms ease;
+}
+.logout-link a:hover{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+}
+.kode-pembelian{
+    border-radius: 10px !important;
+    border: black solid 2px;
+    font-size: 20px;
+    transition: all 500ms ease;
+}
+.kode-pembelian:focus{
+    border-radius: 10px !important;
+    border: black solid 2px;
+    font-size: 40px;
+}
+.btn{
+    background-color: blueviolet;
+    color: white;
+    transition: all 500ms ease;
+}
+.btn:hover{
+    background-color: #BF2BE2;
+    color: white;
+}
+.tabel-barang{
+    background-color: white;
+    border-radius: 15px;
+}
+.nama-barang-title , .harga-barang-title{
+    background-color: black;
+    color: white;
+    border: white solid 1.5px;
+}
+.konfirmasi-section{
+    background-color: #C78AE3;
+}
+.btn-confirm{
+    background-color: #6BE573;
+    color:black;
+}
+.btn-confirm:hover{
+    background-color: white;
+    color:black;
+}
+

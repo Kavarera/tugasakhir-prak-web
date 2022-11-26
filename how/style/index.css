@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600;800&family=Marhey:wght@300;400&family=Nunito:wght@300;400;600;900&family=Share+Tech+Mono&family=Silkscreen&display=swap');
+
+body{
+    font-family: 'Share Tech Mono',sans-serif !important;
+    margin: 0px;
+    background-color: #C78AE3;
+}
+.container{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.container .login{
+    border-radius: 12px;
+}
+.login .login-title img{
+    max-width: 50%;
+}
+.form-label-custom{
+    margin-bottom: 0px;
+}
+.login .login-design-section{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.randomQuote{
+    font-size: 20px !important;
+}
+
+.gradient-custom-2 {
+/* fallback for old browsers */
+background: #fccb90;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}

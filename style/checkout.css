@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600;800&family=Marhey:wght@300;400&family=Nunito:wght@300;400;600;900&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+.page-title{
+    font-family: 'Silkscreen';
+}
+.item-cart{
+    margin-top: 10px;
+    border: black solid 2px;
+}
+.item-cart img{
+    max-width: 45%;
+    
+}
+.item-cart .item-subtitle{
+    color: black;
+}
+
+.item-cart .card-text .text-truncate{
+    max-width: 200px !important;
+}
+.item-cart-mobile .card{
+    border-radius: 0;
+    border: black solid 2px;
+    margin-top: 10px;
+}
+.btn-merah{
+    background-color: maroon;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border: black solid 2px;
+    transition: all 500ms ease;
+    font-size: 25px;
+}
+.btn-merah:hover{
+    background-color: red;
+    color: black;
+    padding: 5px 20px 5px 20px;
+    border: maroon solid 2px;
+    transition: all 500ms ease;
+}
+.btn-merah-mobile{
+    background-color: maroon;
+    color: white;
+    padding: 3px 10px 3px 10px;
+    border: black solid 2px;
+    transition: all 500ms ease;
+    font-size: 20px !important;
+}
+.btn-merah-mobile:hover{
+    background-color: red;
+    color: black;
+    padding: 3px 10px 3px 10px;
+    border: maroon solid 2px;
+    transition: all 500ms ease;
+}
+.btn-checkout{
+    background-color:#1E856F ;
+    color: White;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.btn-checkout:hover{
+    background-color:#1E856F ;
+    color: White;
+}

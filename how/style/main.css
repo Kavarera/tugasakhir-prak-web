@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600;800&family=Marhey:wght@300;400&family=Nunito:wght@300;400;600;900&family=Share+Tech+Mono&family=Silkscreen&display=swap');
+
+body{
+    font-family: 'Share Tech Mono',sans-serif !important;
+    margin: 0px;
+    background-color: #C78AE3;
+}
+.border-tes{
+    /* border: 2px solid red; */
+}
+.page-title{
+    font-family: 'Silkscreen';
+    text-align: center;
+}
+.logout-link a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    transition: all 300ms ease;
+}
+.logout-link a:hover{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+}

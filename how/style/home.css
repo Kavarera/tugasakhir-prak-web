@@ -1,0 +1,34 @@
+.logout-link a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    transition: all 300ms ease;
+}
+.logout-link a:hover{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+}
+.container .page-title h1{
+    font-family: 'Silkscreen';
+    font-size: 50px;
+}
+
+.btn{
+    border: black solid 2px;
+    background-color: white;
+    transition: all 500ms ease;
+}
+.btn:hover{
+    background-color: #00A884;
+    border: black dashed 2px;
+    transition: all 500ms ease;
+}
+.btn-selesai{
+    background-color: #00A884;
+}
+.btn-diterima{
+    background-color: #465DF2;
+    color: white;
+}

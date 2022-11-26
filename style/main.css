@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600;800&family=Marhey:wght@300;400&family=Nunito:wght@300;400;600;900&family=Share+Tech+Mono&family=Silkscreen&display=swap');
+body{
+    font-family: 'Share Tech Mono',sans-serif !important;
+    margin: 0px;
+}
+.nav-link:hover{
+    color: #8612FB !important;
+    
+    transition: all 0.4s ease;
+}
+.nav-item:hover{
+    font-size: larger;
+    transition: all 0.3s ease;
+}
+.kontener{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+.border-tes{
+}
+.btn-normal, .btn-normal:hover{
+    text-decoration: none;
+    color: black;
+    border: black 2px solid;
+}
+.btn{
+    padding: 5px 20px 5px 20px;
+    border: #8612FB 1px solid;
+    border-radius: 5px;
+}
+.btn:hover{
+    padding: 5px 20px 5px 20px;
+    border: #8612FB 1px solid;
+    background-color:#8612FB;
+    color: white;
+    border-radius: 0px;
+    transition: all 0.5s ease-out;
+}
+.btn-green{
+    background-color: #109D23;
+}
+.btn-purple{
+    background-color: #8612FB;
+}
+.footer{
+    font-family: 'Share Tech Mono' !important;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    text-decoration: underline;
+}

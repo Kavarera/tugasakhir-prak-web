@@ -1,0 +1,14 @@
+.container{
+    background-color: white;
+    border-radius: 12px;
+}
+.btn{
+    background-color: blueviolet;
+    color: white;
+    transition: all 500ms ease;
+}
+.btn:hover{
+    background-color: #468FB0;
+    color: white;
+    transition: all 500ms ease;
+}
