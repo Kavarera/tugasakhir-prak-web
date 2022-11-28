@@ -32,6 +32,9 @@
                 <a class="nav-link" href="pembelian.php">Pembelian</a>
                 </li>
                 <li class="nav-item">
+                <a class="nav-link" href="list-produk.php">Produk</a>
+                </li>
+                <li class="nav-item">
                 <a class="nav-link" href="add-produk.php">Add Produk</a>
                 </li>
             </ul>

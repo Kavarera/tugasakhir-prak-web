@@ -17,6 +17,9 @@ body{
 .item-cart .item-subtitle{
     color: black;
 }
+.item-desc{
+    overflow-wrap: break-word;
+}
 
 .item-cart .card-text .text-truncate{
     max-width: 200px !important;

@@ -136,7 +136,7 @@
     </div>
     
     <!-- FOOTER -->
-    <div class="footer border-tes bg-dark text-white mt-5">
+    <div class="footer bg-dark text-white mt-5">
         <div class="container text-center text-md-left">
             <div class="row  d-flex justify-content-between text-center text-md-left">
                 <div class="col-md-8 mt-3">

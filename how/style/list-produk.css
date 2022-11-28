@@ -1,0 +1,41 @@
+.list-produk-title{
+    margin-bottom: 50px;
+    border-bottom: black solid 2px;
+}
+
+.list-item{
+    border-bottom: black solid 2px;
+}
+.status{
+    overflow-wrap: break-word;
+}
+.btn-action{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-family: 'Share Tech Mono';
+    border-radius: 12px;
+    border: black solid 2px;
+    padding: 10px 20px 10px 20px;
+    transition: all 500ms ease;
+}
+
+.btn-action:hover{
+    text-decoration: none;
+    color: black;
+    background-color: greenyellow;
+    font-family: 'Share Tech Mono';
+    font-size: larger;
+    border-radius: 12px;
+    border: black dashed 2px;
+    padding: 10px 30px 10px 30px;
+}
+
+.delete:hover{
+    background-color: red !important;
+}
+
+.edit:hover{
+    background-color: lightskyblue;
+}
+
